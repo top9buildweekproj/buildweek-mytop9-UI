@@ -24,5 +24,5 @@ For your project this week, you will demonstrate proficiency by working with a g
 - [ ]  Descriptions about the product and about the features it provides would be key.
 - [ ]  For a second page, you could do an about us section that includes images of the members of your team, and links to one another's socials/Github.
 
-## Your Grading Rubric Here:
+## Your Grading Rubric Here:gi
 Use [this rubric](https://docs.google.com/spreadsheets/d/1BbdmSMUdzURMo0wcsr4XSKvegDgB28WkK2wnjmORzDo/edit?usp=sharing) to help guide your development processes
