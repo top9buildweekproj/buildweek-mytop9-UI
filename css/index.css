@@ -1,0 +1,290 @@
+.border {
+  border: 1px solid red;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #373D49;
+  color: #FCFCFC;
+  align-content: center;
+}
+header h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.25rem;
+  padding-left: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+header nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+header:hover {
+  background-color: #FCFCFC;
+  color: #373D49;
+}
+header:hover nav a {
+  color: #373D49;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.section-one {
+  display: flex;
+  flex-wrap: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+  background-color: #373D49;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.section-one .box1 {
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.section-one .box1 h2 {
+  color: #FCFCFC;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 48px;
+}
+.section-one .box1 p {
+  color: #FCFCFC;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 38px;
+}
+.section-one .box2 {
+  width: 40%;
+  justify-content: center;
+  align-self: center;
+}
+.section-one .box2 img {
+  align-self: center;
+  width: 90%;
+}
+.section-two {
+  display: flex;
+  flex-wrap: flex;
+  justify-content: center;
+}
+.section-two .box-one {
+  background-color: #256EFF;
+  width: 33.3%;
+  padding-top: 30px;
+}
+.section-two .box-one h3 {
+  justify-content: center;
+  align-self: center;
+  font-size: 28px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #FCFCFC;
+}
+.section-two .box-one p {
+  justify-content: center;
+  align-self: center;
+  font-size: 24px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #373D49;
+}
+.section-two .box-two {
+  background-color: #3DDC97;
+  width: 33.3%;
+  padding-top: 30px;
+}
+.section-two .box-two h3 {
+  justify-content: center;
+  align-self: center;
+  font-size: 28px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #FCFCFC;
+}
+.section-two .box-two p {
+  justify-content: center;
+  align-self: center;
+  font-size: 24px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #373D49;
+}
+.section-two .box-three {
+  background-color: #FF495C;
+  width: 33.3%;
+  padding-top: 30px;
+}
+.section-two .box-three h3 {
+  justify-content: center;
+  align-self: center;
+  font-size: 28px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #FCFCFC;
+}
+.section-two .box-three p {
+  justify-content: center;
+  align-self: center;
+  font-size: 24px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #373D49;
+}
+.btn {
+  border: 2px solid #FCFCFC;
+  border-radius: 5px;
+  background-color: Transparent;
+  color: #373D49;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
