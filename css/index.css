@@ -130,7 +130,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #373D49;
-  color: white;
+  color: #FCFCFC;
   align-content: center;
 }
 header h1 {
@@ -216,10 +216,75 @@ header:hover nav a {
 }
 .section-two .box-one {
   background-color: #256EFF;
+  width: 33.3%;
+  padding-top: 30px;
+}
+.section-two .box-one h3 {
+  justify-content: center;
+  align-self: center;
+  font-size: 28px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #FCFCFC;
+}
+.section-two .box-one p {
+  justify-content: center;
+  align-self: center;
+  font-size: 24px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #373D49;
 }
 .section-two .box-two {
   background-color: #3DDC97;
+  width: 33.3%;
+  padding-top: 30px;
+}
+.section-two .box-two h3 {
+  justify-content: center;
+  align-self: center;
+  font-size: 28px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #FCFCFC;
+}
+.section-two .box-two p {
+  justify-content: center;
+  align-self: center;
+  font-size: 24px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #373D49;
 }
 .section-two .box-three {
   background-color: #FF495C;
+  width: 33.3%;
+  padding-top: 30px;
+}
+.section-two .box-three h3 {
+  justify-content: center;
+  align-self: center;
+  font-size: 28px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #FCFCFC;
+}
+.section-two .box-three p {
+  justify-content: center;
+  align-self: center;
+  font-size: 24px;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  color: #373D49;
+}
+.btn {
+  border: 2px solid #FCFCFC;
+  border-radius: 5px;
+  background-color: Transparent;
+  color: #373D49;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
