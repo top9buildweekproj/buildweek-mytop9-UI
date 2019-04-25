@@ -179,15 +179,35 @@ header:hover nav a {
   width: 60%;
   justify-content: center;
   align-content: center;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.section-one .box1 h2 {
+  color: #FCFCFC;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 48px;
+}
+.section-one .box1 p {
+  color: #FCFCFC;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 38px;
 }
 .section-one .box2 {
   width: 40%;
   justify-content: center;
-  align-content: center;
+  align-self: center;
 }
 .section-one .box2 img {
-  width: 85%;
+  align-self: center;
+  width: 90%;
 }
 .section-two {
   display: flex;
