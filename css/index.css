@@ -160,6 +160,15 @@ header:hover {
 header:hover nav a {
   color: #373D49;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #373D49;
+  color: #FCFCFC;
+}
 .container {
   width: 100%;
   margin: auto;
@@ -277,6 +286,14 @@ header:hover nav a {
   padding-bottom: 20px;
   color: #373D49;
 }
+.section-three {
+  width: 60%;
+  margin: auto;
+  font-size: 24px;
+  background-color: #FCFCFC;
+  color: #373D49;
+  padding-top: 100px;
+}
 .btn {
   border: 2px solid #FCFCFC;
   border-radius: 5px;
@@ -287,4 +304,178 @@ header:hover nav a {
   margin-bottom: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+.container2 {
+  width: 100%;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.company {
+  display: flex;
+  flex-wrap: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+  background-color: #373D49;
+  padding-top: 80px;
+}
+.company h3 {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #FCFCFC;
+  font-size: 48px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.company p {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #FCFCFC;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+.about-section {
+  display: flex;
+  flex-wrap: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+  background-color: #373D49;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.about-section h3 {
+  justify-content: center;
+  align-content: center;
+  color: #FCFCFC;
+  font-size: 48px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #373D49;
+  width: 100%;
+  text-align: center;
+}
+.about-section h4 {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #373D49;
+  font-size: 36px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.about-section p {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #373D49;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+.about-section .aaron {
+  background-color: #256EFF;
+}
+.about-section .nate {
+  background-color: #3DDC97;
+}
+.about-section .jason {
+  background-color: #FF495C;
+}
+.about-section .taylor {
+  background-color: #FCFCFC;
+}
+.about-section img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
 }
