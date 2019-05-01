@@ -380,3 +380,102 @@ q {
 .author {
   color: cornflowerblue;
 }
+.container2 {
+  width: 100%;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.company {
+  display: flex;
+  flex-wrap: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+  background-color: #373D49;
+  padding-top: 80px;
+}
+.company h3 {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #FCFCFC;
+  font-size: 48px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.company p {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #FCFCFC;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+.about-section {
+  display: flex;
+  flex-wrap: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+  background-color: #373D49;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.about-section h3 {
+  justify-content: center;
+  align-content: center;
+  color: #FCFCFC;
+  font-size: 48px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #373D49;
+  width: 100%;
+  text-align: center;
+}
+.about-section h4 {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #373D49;
+  font-size: 36px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.about-section p {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #373D49;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+.about-section .aaron {
+  background-color: #256EFF;
+}
+.about-section .nate {
+  background-color: #3DDC97;
+}
+.about-section .jason {
+  background-color: #FF495C;
+}
+.about-section .taylor {
+  background-color: #FCFCFC;
+}
+.about-section img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
